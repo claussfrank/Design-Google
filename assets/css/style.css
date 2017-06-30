@@ -98,10 +98,54 @@
 .offset-12 {
   margin-left: 100%; }
 
-li {
-  text-align: center; }
+.title {
+  font-family: Product, sans-serif;
+  font-size: 1.3vw;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 28px;
+  color: #424242; }
+
+.titleBloque {
+  font-family: Product, sans-serif;
+  font-size: 2vw;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 28px;
+  color: #424242; }
+
+.subtitleBloque {
+  font-family: Product, sans-serif;
+  font-size: 1.5vw;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 28px;
+  color: #424242; }
+
+a {
+  text-align: center;
+  list-style: none;
+  text-decoration: none; }
 
 .separadorAzul {
   border-top: 4px solid #4285f4; }
+
+p {
+  font-family: Roboto, sans-serif; }
+
+.pieBlock {
+  font-family: Roboto Mono, monospace;
+  color: #424242; }
+
+.relleno {
+  background-color: lightgray; }
+
+.relleno a {
+  text-align: left;
+  padding: 0;
+  color: #4285f4; }
+
+ol {
+  list-style: none; }
 
 /*# sourceMappingURL=style.css.map */

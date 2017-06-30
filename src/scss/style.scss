@@ -1,9 +1,33 @@
 @import'grid';
 @import'variables';
+@import'funciones';
 
-li{
-	text-align: center;
+a{
+	text-align:center;
+	list-style: none;
+	text-decoration: none;
 }
 .separadorAzul{
-	border-top: $border-top;
+	border-top:$border-top;
+}
+p{
+	font-family:$font-parrafo;
+}
+
+.pieBlock{
+	font-family:$font-piePagina;
+	color: $Gris-Oscuro-Titulos;
+}
+.relleno{
+	background-color:$Gris-Claro;
+}
+.relleno{
+	a{
+		text-align:left;
+		padding: 0;
+		color: $Azul;
+	}
+}
+ol{
+	list-style: none;
 }

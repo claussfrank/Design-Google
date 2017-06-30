@@ -1,0 +1,38 @@
+@mixin title {
+        font: {
+            family: $font-famili-block;
+            size: $font-size;
+            weight: $font-weight;
+            style: $font-style;
+            
+        }
+        line-height: $line-height-title;
+        color: $Gris-Oscuro-Titulos;
+    }
+.title{ @include title;}
+
+@mixin titleBloque {
+        font: {
+            family: $font-famili-block;
+            size: $font-size-title;
+            weight: $font-weight;
+            style: $font-style;
+            
+        }
+        line-height: $line-height-title;
+        color: $Gris-Oscuro-Titulos;
+    }
+.titleBloque{ @include titleBloque;}
+
+@mixin subtitleBloque {
+        font: {
+            family: $font-famili-block;
+            size: $font-size-subTitle;
+            weight: $font-weight;
+            style: $font-style;
+            
+        }
+        line-height: $line-height-title;
+        color: $Gris-Oscuro-Titulos;
+    }
+.subtitleBloque{ @include subtitleBloque;}
