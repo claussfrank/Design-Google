@@ -146,6 +146,7 @@ p {
   color: #4285f4; }
 
 ol {
-  list-style: none; }
+  list-style: none;
+  font-family: Roboto, sans-serif; }
 
 /*# sourceMappingURL=style.css.map */
